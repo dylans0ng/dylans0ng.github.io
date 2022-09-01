@@ -13,4 +13,4 @@ SQL stands for Structured Query Language, and it is a language that allows a use
 ---
 
 ### Fundamental Statements of SQL
-##### The SELECT Statement
+#### The SELECT Statement
