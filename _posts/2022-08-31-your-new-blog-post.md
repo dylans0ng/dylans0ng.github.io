@@ -62,3 +62,37 @@ Running this query will return a list of __unique__ names:
 | Sarah |
 
 Note that this list only returns 3 names, whereas the original table had 4 names. This is because "David" appears in the table twice, and since SELECT DISTINCT only returns the __unique__ values, "David" is only returned once. 
+
+### COUNT keyword
+The COUNT keyword does just what it sounds. It counts the rows in the table. In more complex terms, it returns the number of input rows that match a specific condition of a query.
+
+You use COUNT with the SELECT statement. Here's what the syntax looks like:
+```tsql
+SELECT COUNT(*) FROM table_name;
+```
+
+Let's use the customers table from the previous example again:
+| customer_id | customer_name |
+| --- | --- |
+| 1 | David |
+| 2 | Mary |
+| 3 | Sarah |
+| 4 | David | 
+
+To use the COUNT keyword, we can do this in our query:
+```tsql
+SELECT COUNT(*) FROM customers;
+```
+What this code does is return the number of rows in the table. It's that simple. 
+
+Now you can make it more complex by using COUNT and DISTINCT together. Doing this will __count__ the number of __unique values__ in the table.
+
+For example,
+```tsql
+SELECT COUNT(DISTINCT(customer_name)) FROM customers;
+```
+will return 3 because there are 3 __unique values__ in the column called "customer_name".
+
+In most cases, using the COUNT keyword won't be this easy. You will often use a WHERE statement to specify the condition for the count of number of rows. 
+
+### SELECT WHERE
