@@ -1,18 +1,14 @@
-# My SQL Progress Throughout the Summer
+# My SQL Progress Throughout the Summer (Part 1) 
 
 ## Introduction
-As summer comes to an end, I want to recount all the things that I've learned, specifically for a language called SQL. I started learning SQL in the beginning of the summer because, next to Excel, it is one of the most in-demand skills that are required to become a data scientist. I've been using this Udemy course called "The Complete SQL Bootcamp 2022: Go from Zero to Hero" that has helped me learn and practice the essential SQL concepts. I want to provide a quick summary, or cheat sheet, of what I've learned from the course so that you can refer to this post that could help you in the next query that you make!
+As summer comes to an end, I want to recount all the things that I've learned, specifically for a language called SQL, which allows a user to communicate with a database. I started learning SQL in the beginning of the summer because, next to Excel, it is one of the most in-demand skills that are required to become a data scientist. I've been using this Udemy course called "The Complete SQL Bootcamp 2022: Go from Zero to Hero" that has helped me learn and practice the essential SQL concepts. I want to provide a quick summary, or cheat sheet, of some important keywords that you can use for the SELECT statement! This is a Part 1 of my post, and I will create a Part 2 in the future covering creating and modifying a table, so stay tuned for that!
 
-Anyways, without furtherado, here is a recap of what I've learned about SQL:
-
----
-
-## What is SQL?
-SQL stands for Structured Query Language, and it is a language that allows a user to communicate with a database, which is a system that can store massive amounts of data.
+Anyways, without furtherado, here is a recap of what I've learned about the SELECT statement:
 
 ---
 
-## Fundamental Statements of SQL
+## All About the SELECT Statement
+
 ### The SELECT Statement
 The SELECT keyword is the bread and butter for writing queries. It is very simple yet powerful. You can do so many things with the SELECT statement, but I will save those for later. 
 
@@ -96,3 +92,32 @@ will return 3 because there are 3 __unique values__ in the column called "custom
 In most cases, using the COUNT keyword won't be this easy. You will often use a WHERE statement to specify the condition for the count of number of rows. 
 
 ### SELECT WHERE
+The SELECT WHERE statement is probably the most important out of all the other keywords that I talk about in this post. 
+
+What the WHERE statement does is that it allows you to **specify the conditions for the rows in the table to be returned**. If you have some experience in a programming lanaguage such as Python, then **think of WHERE as an "if" statement**. 
+
+General syntax:
+```tsql 
+SELECT column_name
+FROM table_name
+WHERE condition(s);
+```
+
+Let's use an example to make this more clear, using a table called "customer" (similar to the example previously):
+| customer_id | customer_name | customer_age |
+| --- | --- | --- |
+| 1 | David | 25 |
+| 2 | Mary | 40 |
+| 3 | Sarah | 60 |
+| 4 | David | 65 |
+
+Let's say we say something like this:
+```tsql
+SELECT customer_name
+FROM customer
+WHERE customer_age >= 60;
+```
+
+This query will return two names: "Sarah" and "David". This is because the customers with a name of Sarah and David have an age at least 60, **meaning that they meet the condition in the WHERE statement**. 
+
+Another cool thing we can do is use something called the AND 
