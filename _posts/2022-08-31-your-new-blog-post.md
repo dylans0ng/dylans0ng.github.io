@@ -1,5 +1,14 @@
 # My SQL Progress Throughout the Summer (Part 1) 
 
+## Table of Contents
+* [Introduction](#introduction)
+* [The SELECT Statement](#the-select-statement)
+* [SELECT DISTINCT](#select-distinct)
+* [COUNT](#count)
+* [SELECT WHERE](#select-where)
+* [GROUP BY](#group-by)
+* [Conclusion](#conclusion)
+
 ## Introduction
 As summer comes to an end, I want to recount all the things that I've learned, specifically for a language called SQL, which allows a user to communicate with a database. I started learning SQL in the beginning of the summer because, next to Excel, it is one of the most in-demand skills that are required to become a data scientist. I've been using this Udemy course called "The Complete SQL Bootcamp 2022: Go from Zero to Hero" that has helped me learn and practice the essential SQL concepts. I want to provide a quick summary, or cheat sheet, of some important keywords that you can use for the SELECT statement! This is a Part 1 of my post, and I will create a Part 2 in the future covering creating and modifying a table, so stay tuned for that!
 
@@ -198,4 +207,4 @@ Also, the **GROUP BY keyword** should come right after the FROM statement. While
 ## Conclusion
 I hope you've learned some of the basics of SQL in this post! All of these things are NOT a comprehensive list of the whole language. I only covered a glimpse of SQL, and to dive deeper, you can view a Postgres documentation at https://www.postgresql.org/docs/15/index.html. If you want, please comment down below what SQL commands you use the most often in your job.
 
-Thank you!
+Thank you for reading!
