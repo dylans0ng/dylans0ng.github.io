@@ -13,25 +13,21 @@ If you want to make tables in SQL, you must understand the different data types 
 Here's a list of some data types:
 
 - **Boolean**: True or false
-
 - **Character**: Char, varchar, and text
-
 - **Numeric**: Integer and floating-point number
-
 - **Temporal**: Date, time, timestamp, and interval
-
 - **Array**: Stores an array of strings, numbers, etc
 
 Tip: when you create a table, think about **what data type you want to use** to store the data. For example, if you want to store a column of phone numbers in a table, you should use a **text-based data type** because you can't really do arithmetic operations on a phone number. **Remember that not all numbers should have numeric data types**.
+
+---
 
 ## Primary & Foreign Keys 
 
 What is a **primary key**?
 
 - A **primary key** is a column used to identify a row **uniquely in a table**. There can **only be one** primary key in a table.
-
 - Useful for **joining** tables together
-
 - Let's look at an example table:
 
 | customer_id | name | age |
@@ -46,3 +42,46 @@ What is a **primary key**?
 Now, let's transition over to **foreign keys**. 
 
 - A **foreign key** is defined in a table that references to the primary key in **another table**. You can have **multiple** foreign keys in a table.
+- Example:
+
+Let's say we have a table called "customers":
+
+| customer_id | payment_id | name | age |
+| --- | --- | --- | --- |
+| 1 | 32 | David | 24 |
+| 2 | 2 | Mary | 36 |
+| 3 | 40 | Sarah | 19 |
+| 4 | 10 | David | 50 |
+
+And another table called "payments":
+
+| payment_id | payment_spent |
+| --- | --- |
+| 32 | 5.99 |
+| 2 | 0.99 |
+| 40 | 3.99 |
+| 10 | 4.99 |
+
+- In this example, the "customers" table has a **foreign key** called "payment_id". This is because it references to "payment_id", which is the **primary key** of the "payments" table. 
+- Note that you can have as many **foreign keys** as you want in a table, depending on the relationships it has with other tables. 
+
+---
+
+## Constraints
+What are **constraints**?
+- Rules enforced on data columns in a table
+- Constrains data in a column to adhere to certain conditions
+- Used to prevent invalid data from entering a database
+
+Common constraints:
+- NOT NULL: A column cannot have a null value
+- UNIQUE: Ensures that all values in a column are different
+- CHECK: Ensure that all values in a column satisfy a certain condition
+- PRIMARY KEY: Constraint used for a primary key
+
+Up to this point, there has been a ton of definitions and no actual code. Don't worry; that's going to change starting from now. I am going to be creating a table with code snippets that you can use in your own SQL query editor. 
+
+---
+
+# CREATE Table
+
