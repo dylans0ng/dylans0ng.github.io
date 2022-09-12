@@ -17,6 +17,7 @@ Here's a list of some data types:
 - **Numeric**: Integer and floating-point number
 - **Temporal**: Date, time, timestamp, and interval
 - **Array**: Stores an array of strings, numbers, etc
+- **SERIAL**: Used for primary keys (which will be discussed later)
 
 Tip: when you create a table, think about **what data type you want to use** to store the data. For example, if you want to store a column of phone numbers in a table, you should use a **text-based data type** because you can't really do arithmetic operations on a phone number. **Remember that not all numbers should have numeric data types**.
 
@@ -84,4 +85,40 @@ Up to this point, there has been a ton of definitions and no actual code. Don't 
 ---
 
 ## CREATE Table
+Alright, now let's get into the meat of this post: creating tables! 
 
+Creating a table in SQL is actually straightforward - it may look confusing at first, but with a little practice, it will start making a lot of sense.
+
+Here's the syntax of the **CREATE TABLE**:
+```tsql
+CREATE TABLE table_name (
+  column_name TYPE column_constraint,
+  column_name TYPE column_constraint
+);
+```
+
+If we want to create a table called "customers", with a column that holds unique values for each customer and the customer's first name (which cannot be null), then we must do the following:
+```tsql
+CREATE TABLE customers (
+  customer_id SERIAL PRIMARY KEY,
+  customer_first_name VARCHAR(50) NOT NULL
+);
+```
+Let's explain what the code above does:
+- The **SERIAL** represents the _data type_ of "customer_id". The **PRIMARY KEY** is the constraint of the column. 
+   - Primary keys should ALWAYS have the code **SERIAL PRIMARY KEY** when creating a table
+- The next column, customer_first_name, holds text values, so we should use the **VARCHAR** data type. 
+   - The number inside **VARCHAR** represents the maximum number of characters each text value can hold. In this case, each first name should be no more than 50 characters.
+   - **NOT NULL** is the constraint on the "customer_first_name" column. This is optional, but since we don't want any names to be null, we should have the constraint. This will make sure that all the values in "customer_first_name" will exist.
+
+Now, when you do 
+```tsql
+SELECT * FROM customers;
+```
+you will just get a blank table.
+
+This is perfectly normal. We need to actually insert data into the table that we created, and we will do this in the next section!
+
+---
+
+## INSERT
