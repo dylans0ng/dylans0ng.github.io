@@ -97,19 +97,20 @@ CREATE TABLE table_name (
 );
 ```
 
-If we want to create a table called "customers", with a column that holds unique values for each customer and the customer's first name (which cannot be null), then we must do the following:
+If we want to create a table called "customers", with a column that holds unique values for each customer and the customer's first and last name (which cannot be null), then we must do the following:
 ```tsql
 CREATE TABLE customers (
   customer_id SERIAL PRIMARY KEY,
-  customer_first_name VARCHAR(50) NOT NULL
+  customer_first_name VARCHAR(50) NOT NULL,
+  customer_last_name VARCHAR(50) NOT NULL
 );
 ```
 Let's explain what the code above does:
 - The **SERIAL** represents the _data type_ of "customer_id". The **PRIMARY KEY** is the constraint of the column. 
    - Primary keys should ALWAYS have the code **SERIAL PRIMARY KEY** when creating a table
-- The next column, customer_first_name, holds text values, so we should use the **VARCHAR** data type. 
-   - The number inside **VARCHAR** represents the maximum number of characters each text value can hold. In this case, each first name should be no more than 50 characters.
-   - **NOT NULL** is the constraint on the "customer_first_name" column. This is optional, but since we don't want any names to be null, we should have the constraint. This will make sure that all the values in "customer_first_name" will exist.
+- The next 2 columns, customer_first_name and customer_last_name, hold text values, so we should use the **VARCHAR** data type. 
+   - The number inside **VARCHAR** represents the maximum number of characters each text value can hold. In this case, each first and last name should be no more than 50 characters.
+   - **NOT NULL** is the constraint on the "customer_first_name" and the "customer_last_name" column. This is optional, but since we don't want any names to be null, we should have the constraint. This will make sure that all the values in "customer_first_name" and "customer_last_name" will exist.
 
 Now, when you do 
 ```tsql
@@ -122,3 +123,43 @@ This is perfectly normal. We need to actually insert data into the table that we
 ---
 
 ## INSERT
+The **INSERT** command allows us to **add rows to a table**. So, we can add rows to the "customers" table that we just created in the last section.
+
+Here's the syntax:
+```tsql
+INSERT INTO table_name(col1, col2)
+VALUES
+(val1, val2),
+(val1, val2);
+```
+After the **VALUES** statement, each set of parentheses represents **one row**. You can have as many sets of parentheses, but the more you have, the more rows that you will add.
+
+Let's say that in our "customers" table, we want to add 3 rows. Here's how we would do it:
+```tsql
+INSERT INTO customers(first_name, last_name)
+VALUES
+('Joe', 'Smith'),
+('Billy', 'Jean'),
+('Bob', 'Adams');
+```
+
+The inserted values above **must match up with the constraints that we specified** in the last section.
+
+Also note that if you're using pgadmin, you do not have to insert values into the **primary key** because the serial values will automatically be created as you insert rows into the table.
+
+So, now that we have inserted data, we can see what our table looks like.
+```tsql
+SELECT * FROM customers;
+```
+
+This will return a table that looks like this:
+| customer_id | customer_first_name | customer_last_name |
+| --- | --- | --- |
+| 1 | Joe | Smith |
+| 2 | Billy | Jean |
+| 3 | Bob | Adams |
+
+Even though we've inserted data into our table, there's still more to be done! In the next section, I'll go over how to update existing data in case you want to change a value that you already added to the table.
+
+---
+## UPDATE
