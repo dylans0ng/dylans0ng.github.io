@@ -162,4 +162,31 @@ This will return a table that looks like this:
 Even though we've inserted data into our table, there's still more to be done! In the next section, I'll go over how to update existing data in case you want to change a value that you already added to the table.
 
 ---
+
 ## UPDATE
+The **UPDATE** command allows you to change existing values of columns in a table. 
+
+Here's the syntax:
+```tsql
+UPDATE table_name
+SET col1 = val1,
+    col2 = val2,
+    ...
+WHERE condition;
+```
+
+The **SET** commands lets you set a column to a specific value. You can assign as many values to as many columns.
+
+Let's use the "customers" table that we used before. In the previous section, we finally added data into our table: 
+| customer_id | customer_first_name | customer_last_name |
+| --- | --- | --- |
+| 1 | Joe | Smith |
+| 2 | Billy | Jean |
+| 3 | Bob | Adams |
+
+However, let's say that we got the first name "Joe" wrong. It turns out that the first name is actually "Jimmy". In this case, we can do the following:
+```tsql
+UPDATE customers
+SET customer_first_name = 'Jimmy'
+WHERE customer_first_name = 'Joe';
+```
