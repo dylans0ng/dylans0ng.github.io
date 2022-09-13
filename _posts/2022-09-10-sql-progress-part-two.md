@@ -249,4 +249,6 @@ Now, the table will be completely empty:
 ---
 
 ## Conclusion
-If you made it all the way here, I want to thank you for your time reading this long blog post. I just went over the basics on creating, inserting, updating, and deleting data, 
+If you made it all the way here, I want to thank you for your time reading this long blog post. In this post, I went over the basics on creating, inserting, updating, and deleting data in SQL. I hope you found this information useful to you and if you have any questions, please drop it down in the commentes below!.
+
+Thank you!
