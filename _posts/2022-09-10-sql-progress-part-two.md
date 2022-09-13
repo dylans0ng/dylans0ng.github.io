@@ -172,7 +172,7 @@ UPDATE table_name
 SET col1 = val1,
     col2 = val2,
     ...
-WHERE condition;
+WHERE condition (optional);
 ```
 
 The **SET** commands lets you set a column to a specific value. You can assign as many values to as many columns.
@@ -190,3 +190,14 @@ UPDATE customers
 SET customer_first_name = 'Jimmy'
 WHERE customer_first_name = 'Joe';
 ```
+
+Basically, what the code says is that we update the table and set the "customer_first_name" column to "Jimmy" where the first name is equal to "Joe".
+  - NOTE: If we didn't include the WHERE statement, all of the values inside the "customer_first_name" column would be changed to "Jimmy", but that's not what we want. **Depending on your scenario, you can include a WHERE statement or leave it out.**
+
+Now that I've covered how to create tables and insert and update data, I will go over how to delete data from a table.
+
+---
+
+## DELETE
+
+ 
