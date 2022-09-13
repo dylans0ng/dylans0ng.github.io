@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to Part 2 of this blog post series! This will be the final part, but I will be posting other data science related content about once a week, so stay tuned! Also, if you haven't already, please check out the [Part 1 of my SQL progress in the summer](https://dylans0ng.github.io/2022/09/04/sql-progress-part-1.html). 
 
-Anyways, without furtherado, let's dive into the main topic of this post: creating and modifying tables in SQL! Keep in mind that this post is a brief overview, NOT a comprehensive guide. 
+Anyways, without furtherado, let's dive into the main topic of this post: creating and modifying tables in SQL! 
 
 ---
 
@@ -199,5 +199,54 @@ Now that I've covered how to create tables and insert and update data, I will go
 ---
 
 ## DELETE
+The **DELETE** command does just what is sounds: it deletes data. 
 
- 
+You can either delete **specific rows** or delete the **whole table**. I will go over both ways.
+
+Here's the syntax for deleting a **specific row**:
+```tsql
+DELETE FROM table_name
+WHERE condition;
+```
+
+The **WHERE condition** will specify which row you want to delete. For example, if you want to delete a whole row where the row_id is 1, you would say **WHERE row_id = 1**.
+
+Here's the syntax for deleting the **whole table**:
+```tsql
+DELETE FROM table_name;
+```
+
+The syntax for deleting a whole a table is a lot simpler because you do not have to specify which rows to delete. 
+
+Let's use the "customers" table to show you the DELETE command in action:
+| customer_id | customer_first_name | customer_last_name |
+| --- | --- | --- |
+| 1 | Joe | Smith |
+| 2 | Billy | Jean |
+| 3 | Bob | Adams |
+
+Let's say that we want to get rid of the whole row that holds the "customer_id" that is equal to 1 because "Joe Smith" is not a customer anymore. Here's what we can do:
+```tsql
+DELETE FROM customers
+WHERE customer_id = 1;
+```
+
+Now, the table will look like this:
+| customer_id | customer_first_name | customer_last_name |
+| --- | --- | --- |
+| 2 | Billy | Jean |
+| 3 | Bob | Adams |
+
+If we want to delete the whole table, then we can do this:
+```tsql
+DELETE FROM customers;
+```
+
+Now, the table will be completely empty: 
+| customer_id | customer_first_name | customer_last_name |
+| --- | --- | --- |
+
+---
+
+## Conclusion
+If you made it all the way here, I want to thank you for your time reading this long blog post. I just went over the basics on creating, inserting, updating, and deleting data, 
