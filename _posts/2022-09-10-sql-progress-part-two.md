@@ -1,5 +1,16 @@
 # My SQL Progress Throughout the Summer (Part 2)
 
+## Table of Contents
+* [Introduction](#introduction)
+* [First... the basics: Data Types](#first-the-basics-data-types)
+* [Primary & Foreign Keys](#primary-and-foreign-keys)
+* [Constraints](#constraints)
+* [CREATE Table](#create-table)
+* [INSERT](#insert)
+* [UPDATE](#update)
+* [DELETE](#delete)
+* [Conclusion](#conclusion)
+
 ## Introduction
 Welcome to Part 2 of this blog post series! This will be the final part, but I will be posting other data science related content about once a week, so stay tuned! Also, if you haven't already, please check out the [Part 1 of my SQL progress in the summer](https://dylans0ng.github.io/2022/09/04/sql-progress-part-1.html). 
 
@@ -23,7 +34,7 @@ Tip: when you create a table, think about **what data type you want to use** to 
 
 ---
 
-## Primary & Foreign Keys 
+## Primary and Foreign Keys 
 
 What is a **primary key**?
 
