@@ -12,8 +12,15 @@ When doing a project, it is always important to have a goal in mind. That is why
 - Does being employed full-time make your salary higher?
 - How does job experience level impact your salary?
 
-## Creating the table 
-``tsql
+## The Data
+_DISCLAIMER: I will only show images of the first 10 rows of the data because I cannot show 3000+ rows in a single image._
+
+Here is an image of the original dataset:
+![image](https://user-images.githubusercontent.com/112503726/194731820-b539d123-d531-492b-9978-84d415e38b96.png)
+
+We can see that there are 11 columns: LIST THE COLUMNS
+First, I created all the column headers before I imported the data.
+```tsql
 CREATE TABLE Public."ds_salaries"(
     work_year SMALLINT NOT NULL,
     experience_level VARCHAR(5) NOT NULL,
@@ -27,7 +34,9 @@ CREATE TABLE Public."ds_salaries"(
     company_location VARCHAR(5) NOT NULL,
     company_size VARCHAR(2) NOT NULL
 )
-``tsql
+```
+Then, I imported the data from a csv file called "ds_salaries".
+
 
 
 
