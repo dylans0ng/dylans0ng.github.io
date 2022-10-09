@@ -12,7 +12,22 @@ When doing a project, it is always important to have a goal in mind. That is why
 - Does being employed full-time make your salary higher?
 - How does job experience level impact your salary?
 
-
+## Creating the table 
+``tsql
+CREATE TABLE Public."ds_salaries"(
+    work_year SMALLINT NOT NULL,
+    experience_level VARCHAR(5) NOT NULL,
+    employment_type VARCHAR(5) NOT NULL,
+    job_title VARCHAR(200) NOT NULL,
+    salary INTEGER NOT NULL CHECK(salary > 0),
+    salary_currency VARCHAR(30) NOT NULL,
+    salary_in_usd INTEGER NOT NULL CHECK(salary_in_usd > 0),
+    employee_residence VARCHAR(5) NOT NULL,
+    remote_ratio SMALLINT NOT NULL,
+    company_location VARCHAR(5) NOT NULL,
+    company_size VARCHAR(2) NOT NULL
+)
+``tsql
 
 
 
