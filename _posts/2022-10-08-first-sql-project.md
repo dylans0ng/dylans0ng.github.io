@@ -116,4 +116,50 @@ I thought that people working full-time would make the most, so I was surprised 
 
 So, to answer my statistical question, full-time employees typically get paid more compared to part-time workers but make less than contractors.
 
-## Statistical Question 3:
+## Statistical Question 3: How does job experience level impact your salary?
+Legend of the values in "experience_level" column:
+- EN = Entry level
+- MI = Mid-level
+- SE = Senior level
+- EX = Executive level
+
+Here's what I did to answer this question:
+```tsql
+SELECT experience_level, ROUND(AVG(salary_in_usd), 2) AS average_salaries
+FROM ds_salaries
+GROUP BY experience_level
+ORDER BY ROUND(AVG(salary_in_usd), 2) DESC;
+```
+
+Result:
+
+![image](https://user-images.githubusercontent.com/112503726/196851739-39e0fd51-61fd-4eb6-bfa4-d25f7e3d13cc.png)
+
+The average salaries of the different job experience levels varies from $61,643.32 to $199,392.04. Employees with an entry level experience make the least amount of money while those with an executive level experience make the most. The people with mid-level and senior-level experience have average salaries that are in between the salaries of entry level and executive level employees.
+
+## Statistical Question 4: How does the size of the company impact your salary?
+Legend of the values in "company_size" column:
+- S = small company with less than 50 employees
+- M = medium sized company with between 50 and 250 employees
+- L = large company with more than 250 employees
+
+The query:
+```tsql
+SELECT company_size, ROUND(AVG(salary_in_usd), 2) AS average_salaries
+FROM ds_salaries
+GROUP BY company_size
+ORDER BY ROUND(AVG(salary_in_usd), 2) DESC;
+```
+
+Result:
+
+![image](https://user-images.githubusercontent.com/112503726/196853377-700c977d-bbf7-491f-b84d-2162b86cfea2.png)
+
+There is a positive association between the size of the company and the average salaries of the employees in the company. So, the larger the size of the company, the higher the average salaries, as shown by the result. 
+
+## Conclusion
+I've gained many insights from this Kaggle dataset, and it was really fun to create simple queries that could answer the questions that I had. As this is my first SQL project, I know that my queries may look very basic, but even the most basic queries can be powerful in producing results that can be deeply analyzed. In the future, I will try to implement more advanced SQL statements in my next projects that I will post here in my blog. 
+
+Anyways, thank you for going all the way down here and taking your time to read this! 
+
+If you want, feel free to comment down below some project ideas that I could do. I will take them into consideration 🧐.
