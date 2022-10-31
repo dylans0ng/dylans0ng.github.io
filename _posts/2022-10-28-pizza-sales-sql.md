@@ -46,6 +46,13 @@ Columns that I don't need include:
 - pizza_id
 - pizza_ingredients
 
+```tsql
+ALTER TABLE pizza_sales
+DROP COLUMN order_details_id, 
+DROP COLUMN order_id, 
+DROP COLUMN pizza_id, 
+DROP COLUMN pizza_ingredients;
+```
 I don't need any of the id columns because I am not going to make any joins since I'm only working with one table. The "pizza_ingredients" column is also useless because it doesn't help me answer any of the questions, and the ingredients vary so much in each row that it's pretty useless.
 
 # Question 1: What days and times do we tend to be the busiest?
@@ -85,4 +92,85 @@ Result:
 
 Friday is the busiest day of the week since the business is selling the most pizzas on Fridays. 
 
-## Question 2: 
+## Question 2: How many pizzas are we making during peak periods?
+I wanna get the top 3 peak periods in this pizza business (note this code is the same as the one above):
+```tsql
+SELECT EXTRACT(HOUR FROM order_time), SUM(quantity) 
+FROM pizza_sales
+GROUP BY EXTRACT(HOUR FROM order_time)
+ORDER BY SUM(quantity) DESC;
+```
+Result:
+
+![image](https://user-images.githubusercontent.com/112503726/198932290-f5ee3d12-a9bf-42eb-ac56-9630f3f0d56d.png)
+
+This tells me that the top 3 peak periods are the **12th, 13th, and 18th hour**.
+
+Now, I'm going to find the sum of all the pizzas sold in those 3 periods:
+```tsql
+SELECT SUM(quantity) AS pizza_sold_in_top_3_peak_periods
+FROM pizza_sales
+WHERE EXTRACT(HOUR FROM order_time) IN (12, 13, 18);
+```
+Result:
+
+![image](https://user-images.githubusercontent.com/112503726/198932620-75437434-bb73-4e01-bab0-122677630107.png)
+
+I just used a simple **SIMPLE WHERE** statement to answer the statistical question. Based on the result, 18,606 pizzas were sold in the top 3 peak periods.
+
+## Question 3: What are our best and worst-selling pizzas?
+I'm going to find the **top 3 best selling pizzas** and **the bottom 3 worst selling pizzas**. It's a pretty simple query: just use a **GROUP BY** clause. 
+
+Top 3 best selling pizzas:
+```tsql
+SELECT pizza_name, SUM(quantity) 
+FROM pizza_sales
+GROUP BY pizza_name
+ORDER BY SUM(quantity) DESC
+LIMIT 3;
+```
+Result:
+
+![image](https://user-images.githubusercontent.com/112503726/198933990-e3ca892c-bbc4-472f-b86a-8342e238cacd.png)
+
+Bottom 3 worst selling pizzas:
+```tsql
+SELECT pizza_name, SUM(quantity) 
+FROM pizza_sales
+GROUP BY pizza_name
+ORDER BY SUM(quantity) ASC
+LIMIT 3;
+```
+Result:
+
+![image](https://user-images.githubusercontent.com/112503726/198934124-c53a3612-1588-44c0-b9a0-b3d0270295b4.png)
+
+Based on these two queries, the top 3 pizzas are "Classic Deluxe", "Barbecue Chicken", "Hawaiian". The bottom 3 pizzas are "Brie Carre", "Mediterranean", "Calabrese". I used the **ASC** and **DESC** feature in the **ORDER BY** statement to get the top and bottom 3 pizzas. 
+
+## Question 4: What's our average order value?
+This doesn't answer the question, but I'm just interested in the average prices for the pizzas based on the size:
+```tsql
+SELECT pizza_size, AVG(total_price) AS average_total_price
+FROM pizza_sales
+GROUP BY pizza_size
+ORDER BY AVG(total_price) ASC;
+```
+Result:
+
+![image](https://user-images.githubusercontent.com/112503726/198935267-4870f516-d25c-4ade-bc55-d7b09ecf6fde.png)
+
+Clearly, the average prices of the pizzas increase as the size increases, which makes sense.
+
+Now, I'm going to answer the question to find the **average price of ALL pizzas, regardless of size**:
+```tsql
+SELECT AVG(total_price) AS average_total_price
+FROM pizza_sales;
+```
+Result:
+![image](https://user-images.githubusercontent.com/112503726/198935697-463bfa20-434e-4137-b48f-a8bbd7e22354.png)
+
+The average price of all the pizzas is about $16.82, which is a pretty reasonable price for a pizza in my opinion. 
+
+## Conclusion
+work on this
+
