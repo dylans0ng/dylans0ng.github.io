@@ -1,4 +1,4 @@
-# Analyzing Pizza Sales using SQL (NOT FINISHED)
+# Analyzing Pizza Sales using SQL 
 ## Introduction
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/112503726/198816106-57aefb24-f6f7-4c79-8ec3-1996265c77eb.png">
@@ -172,5 +172,6 @@ Result:
 The average price of all the pizzas is about $16.82, which is a pretty reasonable price for a pizza in my opinion. 
 
 ## Conclusion
-work on this
+If you have reached this part, I want to thank you for reading my whole post. This was a pretty simple project, but despite its simplicity, I feel more proficient in the SQL language and more confident as I write these queries. I'm thinking of posting something related to Power BI next, but if you have any other ideas of what I could post, feel free to comment it down below!
 
+Thank you!
