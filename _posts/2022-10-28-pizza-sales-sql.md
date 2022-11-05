@@ -1,4 +1,4 @@
-# Analyzing Pizza Sales using SQL 
+# Analyzing Pizza Sales using SQL (UNFINISHED)
 ## Introduction
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/112503726/198816106-57aefb24-f6f7-4c79-8ec3-1996265c77eb.png">
