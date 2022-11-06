@@ -4,6 +4,11 @@
 Hello everyone! This is my first SQL project on Postgres and I want to share this because it might be helpful for those of you that are learning the basics of SQL. I hope you read until the end to see what I accomplished!
 
 ## Project Topic
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/112503726/200153082-0dcca9c6-bd0a-41c5-affa-a0c1a71218d3.png">
+</p>
+
+
 This project is about the salaries of different data science positions and I got the [dataset](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries) from Kaggle. If you want to play with the dataset yourself, I encourage you to check it out! 
 
 ## Statistical Questions
@@ -162,4 +167,4 @@ I've gained many insights from this Kaggle dataset, and it was really fun to cre
 
 Anyways, thank you for going all the way down here and taking your time to read this! 
 
-If you want, feel free to comment down below some project ideas that I could do. I will take them into consideration 🧐.
+If you want, feel free to comment down below some project ideas that I could do, and I will take them into consideration!
