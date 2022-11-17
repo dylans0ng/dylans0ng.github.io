@@ -1,4 +1,4 @@
-# 3 Main Steps when doing a SQL project (UNFINISHED)
+# 3 Main Steps when doing a SQL project
 
 <p align="center">
   <img width="550" height="500" src="https://user-images.githubusercontent.com/112503726/200104695-41053259-3ef2-4dcd-976f-0ab0f1f043da.png">
