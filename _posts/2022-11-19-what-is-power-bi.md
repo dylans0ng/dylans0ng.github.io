@@ -21,7 +21,7 @@ There are **3 main steps** when working inside Power BI Desktop:
   <img width="1000" height="300" src="https://user-images.githubusercontent.com/112503726/202918843-c95857cb-7ce7-4f49-9d18-1b2c009c2f38.png">
 </p>
 
-1. **Query Editor** (Connect data/transform)
+1. **Query Editor** (Connect the data, cleaning data phase)
 2. **Data Model** (manage relationships)
 3. **Report** (make visuals)
 
@@ -49,8 +49,14 @@ Here, you can clean data by **removing null values, changing the format of the c
 After you're done with cleaning, you can click the "**Close & Apply**" button on the top left corner of the Query Editor and you're ready to move on to the next step!
 
 ## Data Model
+After you have imported and cleaned the data in the Query Editor, you can now head over to the Data Model. It looks like this:
+![image](https://user-images.githubusercontent.com/112503726/203484405-2600b232-f0ac-48d1-9879-05c8d2f5b344.png)
 
+If you have more than one table in your database, it is important to **create relationships** between them in order to display the correct information in your visuals. 
 
+The Data Model is cool because it shows you a **nice diagram** of all the tables and the relationships between them. Here's an example:
+![image](https://user-images.githubusercontent.com/112503726/203484911-1fdb275f-7aae-4bbc-b4a3-3c9d90313049.png)
 
+TALK ABOUT USING DAX LATER!
 
 
