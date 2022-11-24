@@ -12,7 +12,7 @@ I've chosen to use Power BI because I love the GUI of the app, and it is very ea
 In this post, I'm going to walk through the **main features of the Power BI Desktop app**, so if you're interested in learning about the basics of this powerful data visualization tool, keep reading! 
 
 ## Workflow within Power BI Desktop
-Power BI Desktop is the app that is free for anyone. You can many things with the free version such as **cleaning data, creating visuals, and managing relationships between tables**. However, the downside is that you cannot collaborate together with others and share your work to the public. To do that you must use a paid version called Power BI Pro.
+Power BI Desktop is the app that is free for anyone. You can do many things with the free version such as **cleaning data, creating visuals, and managing relationships between tables**. However, the downside is that you cannot collaborate together with others and share your work to the public. To do that you must use a paid version called Power BI Pro.
 
 I'm only going to be focusing on Power BI Desktop since anyone has access to it.
 
@@ -39,7 +39,7 @@ After you click on the dataset that you want, you will see a pop-up appear on yo
 
 ![image](https://user-images.githubusercontent.com/112503726/202919790-cb1abe50-53b6-41ba-a581-a447553d48d4.png)
 
-Even though the "Load" button may look more appearing, **don't click it**! You should click on "Transform Data" first because **you want to be able to clean your data** before you load it onto Power BI.
+Even though the "Load" button may look more appealing, **don't click it**! You should click on "Transform Data" first because **you want to be able to clean your data** before you load it onto Power BI.
 
 Once you click on "Transform Data", a new window will appear. This window is called the "**Query Editor**". It looks something like this:
 ![image](https://user-images.githubusercontent.com/112503726/202920887-809d2e67-0478-4a68-a65a-c282b0d982cf.png)
