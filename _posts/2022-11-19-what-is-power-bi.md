@@ -57,6 +57,27 @@ If you have more than one table in your database, it is important to **create re
 The Data Model is cool because it shows you a **nice diagram** of all the tables and the relationships between them. Here's an example:
 ![image](https://user-images.githubusercontent.com/112503726/203484911-1fdb275f-7aae-4bbc-b4a3-3c9d90313049.png)
 
-TALK ABOUT USING DAX LATER!
+You can also use **DAX** formulas to create **new measures** and **new columns**. You can do this by clicking on the "Home" ribbon like so:
+![image](https://user-images.githubusercontent.com/112503726/203700958-f5defb3f-7225-42e2-a1c0-ba0423bd5a41.png)
 
+DAX stands for **Data Analysis Expressions** and can help you gain new information from the already existing data that can help you make your visuals in the next step. **DAX** is probably one of the most important things that you should learn because there are a wide variety of powerful functions such as SUMX(), AVERAGE(), COUNTROWS(), and many more. 
+
+## Report
+This is my favorite part of the process. If you love art, now is your time to shine. You can create **stunning visuals that answer any statistical questions** that you have. 
+
+To go to the "Report" tab, go to the left hand side and click on the little icon at the very top:
+
+![image](https://user-images.githubusercontent.com/112503726/203702302-153caf6e-6ea2-44f4-91aa-ddb6f5a04e93.png)
+
+What I love about this stage in the workflow is that **you can be as creative as you want** in your visuals. 
+
+Here's an example of a report that I made in my free time:
+![image](https://user-images.githubusercontent.com/112503726/203702688-e4aca63b-1eaa-434f-9c56-219a90486e93.png)
+
+The colors and charts/graphs make it **very easy for others to gain insights** from the data just from a quick glance at the report.
+
+## Conclusion
+I hope you liked my overview of Power BI! In my next post, I will create a full visual report on the **Pizza Sales SQL project** that I did in a previous post over [**here**](https://dylans0ng.github.io/2022/10/28/pizza-sales-sql.html), so stay tuned for that!
+
+Anyways, I hope you have a good day and thank you for reading! 
 
