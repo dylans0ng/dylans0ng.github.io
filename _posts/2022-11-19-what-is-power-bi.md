@@ -1,4 +1,4 @@
-# What is Power BI? (UNFINISHED)
+# What is Power BI? 
 
 ![image](https://user-images.githubusercontent.com/112503726/202890187-9ce0eb36-1568-4836-94f8-d7dc5146048f.png)
 
