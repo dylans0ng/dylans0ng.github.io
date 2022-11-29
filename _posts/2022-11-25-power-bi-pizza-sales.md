@@ -25,7 +25,7 @@ Usually I would click on "Transform data" but because **I already cleaned the da
 I don't have to make any changes in the **data model**. Looking at the image, this is a pretty simple project and **there is only one table involved**, so there isn't any relationships that need to be established:
 ![image](https://user-images.githubusercontent.com/112503726/204121170-08ca2a57-b3b9-4470-ae0c-69d719d445b7.png)
 
-So, I can now dive into creating visuals for this dataset. However, before I do that, I'm going to revisit the statistical questions that I used in the SQL post:
+So, I can now **dive into creating visuals** for this dataset. However, before I do that, I'm going to revisit the statistical questions that I used in the SQL post:
 ## Statistical Questions
 1. What days and times do we tend to be busiest?
 2. How many pizzas are we making during peak periods?
@@ -34,7 +34,19 @@ So, I can now dive into creating visuals for this dataset. However, before I do 
 
 I'm going to be showing you a **visual that answers each statistical question**, and after that, I will show you what my report looks like **as a whole**.
 
-## Statistical Question #1
+## Statistical Question 1: What days and times do we tend to be busiest?
+I need to use **DAX** in order to answer this question. There's a DAX function called **HOUR** that retrieves all the hours from **timestamps**. So, here's what I did.
+
+I have a column called "order_time" that has **all the timestamps** of when each pizza was ordered. This is what the code looks like:
+![image](https://user-images.githubusercontent.com/112503726/204455298-764d92a3-6eeb-4492-ae0d-b872ac719336.png)
+
+Then, I created a **simple bar chart** that shows the **relationship** between the hour and the quantity of pizzas sold:
+![image](https://user-images.githubusercontent.com/112503726/204456915-40459465-5b4d-41c6-a485-240e487bd1ae.png)
+
+Looking at the chart, the busiest time for this fictional pizza business is the **12th hour**, which is noon.
+
+I also need to show what the busiest day for the business is. DO THIS LATER!
+
 
 ## Conclusion
 Thank you for reading this post! I hope you enjoyed it. If you want to see my other content related to Power BI, check out this previous [post](https://medium.com/@dylanhgs/what-is-power-bi-4af26ec0a9cd)
