@@ -45,8 +45,12 @@ Then, I created a **simple bar chart** that shows the **relationship** between t
 
 Looking at the chart, the busiest time for this fictional pizza business is the **12th hour**, which is noon.
 
-I also need to show what the busiest day for the business is. DO THIS LATER!
+I also need to show what the busiest day for the business is. To do this, we need to use more DAX!
 
+I created a **new column** using the DAX function callled **WEEKDAY**:
+![image](https://user-images.githubusercontent.com/112503726/205429230-35899fb9-55e3-45b5-8ae2-ba6baaa72579.png)
+
+This basically returns integers from the dates in the column called "order_date". The **integers range from 1 to 7** with 1 representing "Sunday" and 7 representing "Saturday". However, I want to **convert these integers to the actual days of the week**, so I will have to use another DAX function called **IF**. WORK ON THIS LATER! 
 
 ## Conclusion
 Thank you for reading this post! I hope you enjoyed it. If you want to see my other content related to Power BI, check out this previous [post](https://medium.com/@dylanhgs/what-is-power-bi-4af26ec0a9cd)
