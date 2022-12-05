@@ -1,4 +1,4 @@
-# Pizza Sales Project with Power BI (UNFINISHED)
+# Pizza Sales Project with Power BI
 
 ![image](https://user-images.githubusercontent.com/112503726/204071711-67ca7787-bdb3-4bd0-805c-a99dbf820071.png)
 
