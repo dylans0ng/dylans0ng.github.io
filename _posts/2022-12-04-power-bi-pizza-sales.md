@@ -86,7 +86,8 @@ Not surprisingly, **the bigger the size of the pizza, the more expensive the ave
 
 ## The Final Report
 I played around in the Power BI Report and polished the visuals that I showed above and did my best to make it visually appealing:
+![image](https://user-images.githubusercontent.com/112503726/205553915-cc0dba6b-30f6-4f61-a92f-f71426247f6d.png)
 
 
 ## Conclusion
-Thank you for reading this post! I hope you enjoyed it. If you want to see my other content related to Power BI, check out this previous [post](https://medium.com/@dylanhgs/what-is-power-bi-4af26ec0a9cd)
+Thank you for reading this post! I hope you enjoyed it. If you want to see my other content related to Power BI, check out this previous [post](https://medium.com/@dylanhgs/what-is-power-bi-4af26ec0a9cd). 
