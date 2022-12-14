@@ -1,4 +1,4 @@
-# Excel Tip: Customizing the Quick Access Toolbar
+# Quick Excel Tip: Customizing the Quick Access Toolbar
 
 ![image](https://user-images.githubusercontent.com/112503726/206978775-a6705988-c97a-458c-9488-77266bd8078a.png)
 
@@ -13,3 +13,15 @@ Excel is a spreadsheet program that was created by Microsoft. It organizes data 
 Cleaning data in Excel is a very tedious process, but there is something called the **Quick Access Toolbar** that can make your life a lot easier.
 
 ## Quick Access Toolbar
+The Quick Access Toolbar is located in the **top left corner** of the Excel interface. 
+
+
+It's very small but it is very useful because it provides **many shortcut buttons** for different kinds of features.
+
+If you never customized your Quick Access Toolbar, then it probably looks like this:
+![image](https://user-images.githubusercontent.com/112503726/207525021-e6f4feb8-4d7f-4022-9ceb-032b43909b8c.png)
+
+You can use the **dropdown arrow** to the right to **add or remove** any shortcut buttons. You can also **add any common formulas** that you use into the Quick Access Toolbar so that **you don't have to constantly find it everytime** you're about to use it. 
+
+Now, this is just personal preference, but I found it **more convenient** for me to have the "Sum" formula and the "Sort ascending" and "Sort descending" buttons in my toolbar because I FINISH THIS SENTENCE
+![image](https://user-images.githubusercontent.com/112503726/207524247-9de309e8-5bce-45ea-82a9-a89f39b6e997.png)
