@@ -32,9 +32,28 @@ If f is **continuous** on the closed interval a <= x <= b, then f has a **global
 In order to find global extrema, you must know how to find **critical points**. Critical points are where the **slope of the tangent line** is 0 OR undefined. 
 
 To find the specific x-values of the critical points, we must find the first derivative of the function, **set it equal to 0**, and solve for x. We must ALSO **find x-values that make the first derivative undefined**.
-Put an image of this in action (use my OneNote page)
 
-## Testing the Critical Points
+#### EXAMPLE
+![image](https://user-images.githubusercontent.com/112503726/209275495-8d6e4340-4368-4a02-9235-b9c99550d0f2.png)
+![image](https://user-images.githubusercontent.com/112503726/209275536-c6a5d976-cfcb-470c-bc2e-8ea66dfb8eee.png)
+
+To solve this problem, I first found the first derivative and set it equal to 0. Notice that **I don't have to worry about finding x-values that are undefined** because the first derivative is a **quadratic that will never be undefined**.
+
+Now that you understand how to find critical points, you must use those points to find the **global extrema**.
+
+### Testing the Critical Points
+To find the **global extrema**, we must TEST the critical points. 
+
+#### Dealing with CLOSED intervals
+When you are given a question that asks you to find the global min and max of a function **within a closed interval**, then here's what you do:
+1) Find the critical points of the function
+2) Plug in the critical points AND the **endpoints of the closed interval** into the **original function**, NOT the derivative of the function.
+3) See which x-value will produce the smallest and greatest values. These values are your **global min and max**.
+
+#### Closed Interval Example
+
+
+## Word Problems
 
 ## 
 
