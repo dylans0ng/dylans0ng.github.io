@@ -44,16 +44,43 @@ Now that you understand how to find critical points, you must use those points t
 ### Testing the Critical Points
 To find the **global extrema**, we must TEST the critical points. 
 
-#### Dealing with CLOSED intervals
+#### Look at the ENDPOINTS of the domain interval 
 When you are given a question that asks you to find the global min and max of a function **within a closed interval**, then here's what you do:
-1) Find the critical points of the function
+1) Find the critical points of the function by setting the first derivative **equal to 0** and finding x-values where the derivative is undefined (if necessary).
 2) Plug in the critical points AND the **endpoints of the closed interval** into the **original function**, NOT the derivative of the function.
 3) See which x-value will produce the smallest and greatest values. These values are your **global min and max**.
 
+Here's the 3 step process in action:
 #### Closed Interval Example
+Find the global min and max for the function on the closed interval:
+![image](https://user-images.githubusercontent.com/112503726/209277409-344e4f96-7433-4d48-9eca-3e7f25aa66fe.png)
+![image](https://user-images.githubusercontent.com/112503726/209277702-59420c33-cdea-4d0e-85a7-bbfc1531cccc.png)
+
+Now, let's look at some tougher problems. 
+
+## Optimization Word Problems
+Here's where the fun begins. Often times, in your calculus class, the questions won't be as easy as the examples that I had above. You're going to have to look at long word problems that require you to either **minimize or maximize** a certain thing.
+
+Anyways without furtherado, let's dive right into it, and I'm warning you that these problems are gonna be pretty hard. So, if you're up for the challenge, read on! 
+
+![image](https://user-images.githubusercontent.com/112503726/209278662-c955a3f3-9576-48d6-8b6d-075fd9161a6d.png)
+Caption: Don't be scared, you'll be fine 😀!
+
+Here is the process of dealing with optimization word problems:
+1) If the question deals with anything related to volume or area, **DRAW A PICTURE** (if the problem doesn't give you a diagram)
+2) Label the picture with **convenient variables** such as x, y, or h
+3) Write a **"primary" formula** for the quantity that needs to be maximized or minimized. Common primary formulas include area = length * width, volume of cylinder = pi(radius * radius)(height), volume of rectangle = length * width * height
+4) Reduce the "primary" formula that you created so that it only has **one variable**
+5) Create practical endpoints of this one variable. This is essentially your **domain interval**. This step requires you to analyze the **context of the scenario**, so you must not only understand what the question is asking you, **but you must also understand the context of the question**.
+6) Find the critical points of the function (this is why critical points are important). Find the global max or min (recall how we did this in the previous section).
+
+So, here are some big word problems using this process in action:
+### Cutting a Box
+![image](https://user-images.githubusercontent.com/112503726/209280192-a9139212-737d-47ab-9531-f4c888a38671.png)
+
+FINISH THIS PROBLEM LATER!
 
 
-## Word Problems
-
-## 
-
+## Conclusion
+### Resources that I've used
+Professor Leonard's videos are amazing. 
