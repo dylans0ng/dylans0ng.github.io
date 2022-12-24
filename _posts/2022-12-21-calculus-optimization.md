@@ -80,7 +80,7 @@ So, here are some big word problems using this process in action. For any of the
 ### Cutting a Box
 ![image](https://user-images.githubusercontent.com/112503726/209280192-a9139212-737d-47ab-9531-f4c888a38671.png)
 
-Answer:
+**Answer:**
 
 ![image](https://user-images.githubusercontent.com/112503726/209419548-59cb87ca-a877-4437-89ad-130147f81bef.png)
 ![image](https://user-images.githubusercontent.com/112503726/209419655-b290ce97-eea7-47b5-ba3a-3bcc07132a02.png)
@@ -112,9 +112,38 @@ Okay, let's move on to a trickier problem...
 ### Polygon Inscribed Inside Another Figure
 ![image](https://user-images.githubusercontent.com/112503726/209420257-b7d28f83-2542-48f8-b9d5-299f89978403.png)
 
+**Answer:**
 
-FINISH THIS PROBLEM LATER!
+Based on the information given, you can draw this diagram:
+![image](https://user-images.githubusercontent.com/112503726/209420949-6d5d4b57-19f1-4775-9445-e9c40d5c8a82.png)
 
+You might be wondering what the point was to draw the diagonal inside the rectangle. Well, what we drew inside the rectangle was a **right triangle**, so we can use the **Pythagorean Theorem** to solve for one of the variables. 
+![image](https://user-images.githubusercontent.com/112503726/209421025-c0b7a7ff-a93b-42e1-b99e-48bed872a954.png)
+
+![image](https://user-images.githubusercontent.com/112503726/209421065-20372bde-d474-4ea6-bac8-95fcd69fc5df.png)
+
+This is our primary equation. Since we solved for "w" already, we can **substitute our equation for "w"** and plug it into our primary equation so that the formula is a function of "L".
+![image](https://user-images.githubusercontent.com/112503726/209421114-c05791e7-232d-4ba0-b5b8-fe834634c32e.png)
+
+Now, we gotta set our **domain**. We know that L cannot be less than 0 because a side length **cannot be negative**. Also, if L is greater than 2, then "w" will become negative, which is not possible. So here's our domain:
+![image](https://user-images.githubusercontent.com/112503726/209421149-930fb314-526d-4eb1-8f73-72c8350ef6c4.png)
+
+Now, we must find the derivative of the function we created by using the **chain rule** and **product rule**.
+![image](https://user-images.githubusercontent.com/112503726/209421189-1460dec8-6d24-4cea-b40e-224ff1bb35d4.png)
+
+After we get our derivative, we need to find the critical points **within our domain that we made**.
+![image](https://user-images.githubusercontent.com/112503726/209421218-a419d1a2-d362-4c50-b400-0570615836af.png)
+
+Plug in critical points and endpoints:
+![image](https://user-images.githubusercontent.com/112503726/209421251-15f6d3f5-6ac5-475c-9f17-8470ff8859d2.png)
+
+Answer the question: 
+![image](https://user-images.githubusercontent.com/112503726/209421272-c1a881fd-6c99-4585-a2c5-72958343f2a0.png)
+
+I hope you are seeing a **pattern** in these questions because once you get a lot of practice of optimization problems, they will get a lot easier!
+
+### Minimal Path
+WORK ON THIS LATER!
 
 ## Conclusion
 ### Resources that I've used
