@@ -73,10 +73,45 @@ Here is the process of dealing with optimization word problems:
 4) Reduce the "primary" formula that you created so that it only has **one variable**
 5) Create practical endpoints of this one variable. This is essentially your **domain interval**. This step requires you to analyze the **context of the scenario**, so you must not only understand what the question is asking you, **but you must also understand the context of the question**.
 6) Find the critical points of the function (this is why critical points are important). Find the global max or min (recall how we did this in the previous section).
+7) Answer the question **IN CONTEXT** and draw a box around it to tell the person grading your paper that is is your **final answer**.
 
-So, here are some big word problems using this process in action:
+So, here are some big word problems using this process in action. For any of these problems, **try to do the problems yourself BEFORE looking at my answer**. If you try the problem yourself but can't solve it, THEN you can look at the answer.
+
 ### Cutting a Box
 ![image](https://user-images.githubusercontent.com/112503726/209280192-a9139212-737d-47ab-9531-f4c888a38671.png)
+
+Answer:
+
+![image](https://user-images.githubusercontent.com/112503726/209419548-59cb87ca-a877-4437-89ad-130147f81bef.png)
+![image](https://user-images.githubusercontent.com/112503726/209419655-b290ce97-eea7-47b5-ba3a-3bcc07132a02.png)
+
+We can set up a formula as a function of "x". 
+
+![image](https://user-images.githubusercontent.com/112503726/209419693-a7a91d45-8337-454a-842d-3c73f6500000.png)
+
+This is our domain. Our x-value can't be less than 0 because you can't have a side length that is negative. Our x-value can't be greater than 4 because then our width, which we represented as 8-2x, will become a negative value, and that's not possible.
+
+![image](https://user-images.githubusercontent.com/112503726/209419845-6c74e795-0470-44cc-be14-b86f334e52dd.png)
+
+Remember when we find critical points, we must **eliminate** any critical points that are **OUTSIDE OF OUR DOMAIN THAT WE CREATED** (this is why creating the domain is important!). 
+
+![image](https://user-images.githubusercontent.com/112503726/209420062-b735dc3c-09cb-4a2a-844f-448b3346d6f6.png)
+
+Now, you plug in the critical points AND THE ENDPOINTS OF THE DOMAIN into your **original function**, NOT the derivative. 
+
+You can see that when x is about 1.569, then the volume of the cut box is **maximized**.
+
+But, we're not done yet. We gotta answer the question.
+
+![image](https://user-images.githubusercontent.com/112503726/209420184-89563814-470f-48f8-95f6-a9bc1d8d15f8.png)
+
+You MUST answer the question in the end. Do NOT forget the units in the problem. 
+
+Okay, let's move on to a trickier problem...
+
+### Polygon Inscribed Inside Another Figure
+![image](https://user-images.githubusercontent.com/112503726/209420257-b7d28f83-2542-48f8-b9d5-299f89978403.png)
+
 
 FINISH THIS PROBLEM LATER!
 
