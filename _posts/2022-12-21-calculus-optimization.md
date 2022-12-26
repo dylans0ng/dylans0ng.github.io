@@ -203,15 +203,22 @@ Now, you come up with our cost equation:
 You can write the cost equation as a function of a single variable "w". All I'm gonna do is replace **h with 5/w^2**:
 ![image](https://user-images.githubusercontent.com/112503726/209516165-5a9117f2-a112-4bb9-9a0e-d7dda3d83e63.png)
 
-"w" can't be less than 0 because you can't have a negative width. "w" also can't be greater than 10 because **a single side of a prism can't be greater than its own volume**. So, this is our domain for "w":
+"w" has to be greater than 0 because you can't have a negative width and if "w" is 0, then "h" will become undefined. At the same time, "w" also can't be greater than 10 because **a single side of a prism can't be greater than its own volume**. So, this is our domain for "w":
 ![image](https://user-images.githubusercontent.com/112503726/209516356-287bfff3-cab6-4ceb-94cf-2121a935801c.png)
 
-Take the derivative of C(w):
-FINISH THIS LATER!
+Take the derivative of C(w) by using the **power rule**:
+![image](https://user-images.githubusercontent.com/112503726/209575046-81c77a6c-8c66-47fd-a231-698730f4772f.png)
 
+Find critical points:
+![image](https://user-images.githubusercontent.com/112503726/209575179-201eb33c-06ee-440f-bda2-0c22aba8bcd9.png)
 
+Find **global minimum**:
+![image](https://user-images.githubusercontent.com/112503726/209575203-6ba8e3b2-c16d-48e5-b6c1-3861ee3f740b.png)
 
+Answer the question: 
+![image](https://user-images.githubusercontent.com/112503726/209575237-aa072f0f-5347-45e7-8828-fa44ab5d7ec4.png)
 
 ## Conclusion
+If you've gotten all the way here, I wanna congratulate you for reading this long post all the way through. This post provided examples of different kinds of optimization problems. However, there's a lot 
 ### Resources that I've used
 Professor Leonard's videos are amazing. 
