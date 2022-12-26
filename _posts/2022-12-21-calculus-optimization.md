@@ -143,7 +143,27 @@ Answer the question:
 I hope you are seeing a **pattern** in these questions because once you get a lot of practice of optimization problems, they will get a lot easier!
 
 ### Minimal Path
-WORK ON THIS LATER!
+![image](https://user-images.githubusercontent.com/112503726/209500314-67f5c742-751b-4466-bda9-467e35c95c90.png)
+
+This problem looks very confusing, but luckily, they give us a diagram:
+![image](https://user-images.githubusercontent.com/112503726/209500440-b2a25696-9c93-4029-a305-81b248217bd5.png)
+
+**Answer:**
+First, we should label the diagram:
+![image](https://user-images.githubusercontent.com/112503726/209500560-120ebef5-503b-49c1-bb22-eeeaa18ef5e0.png)
+
+Basically, we need to find the **minimal length** of the part that I have highlighted in yellow. I've used the Pythagorean theorem to get the hypotenuses (the blue and red part). 
+
+Now, we can create an equation as a **function of x**. I'm gonna call the function D(x) to represent the length of the pipe:
+![image](https://user-images.githubusercontent.com/112503726/209500706-16fda29f-e9c2-43fa-8937-9e09c9457be2.png)
+
+Notice that I've changed the formula so that I can **easily apply the chain rule it** since we're going to have to take the derivative later.
+
+Let's create a domain for **x** now. We know that x can't be less than 0 because it's impossible to have a negative length. Also, if you look at the diagram, you can see that x can't be greater than 4. So, here's our domain:
+![image](https://user-images.githubusercontent.com/112503726/209501590-bfd44464-5b38-4f57-afdb-5d181296b019.png)
+
+
+
 
 ## Conclusion
 ### Resources that I've used
