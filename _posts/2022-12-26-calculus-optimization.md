@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/112503726/209005707-c1cb7716-818b-4c74-add5-11a29233f667.png)
 
 ## Introduction
-Hello everyone, how are you all doing? In this post, I'm going to be going over one of the most important concepts in calculus: **optimization**. It's very useful because **optimization can be applied to many different real-life scenarios**.
+Hello everyone, how are you all doing? Just a heads-up: this post is gonna be pretty long! So, I recommend that you use the **table of contents** to jump to a specific part that you wanna look at. Anyways, in this post, I'm going to be going over one of the most important concepts in calculus: **optimization**. It's very useful because **optimization can be applied to many different real-life scenarios**.
 
 For example, let's say you are the owner of a business and you want to **minimize your costs** because you don't want to spend too much. Well to do this, you would have to use calculus! By the end of this post, you are going to know how to solve this kind of problem.
 
@@ -14,9 +14,9 @@ Optimization is all about finding the **GLOBAL EXTREMA**. Global extrema refers 
 
 ### Global Extrema
 
-**Global minimum** = Lowest value in the function. 
+**Global minimum** = Lowest value within the domain of the function. 
 
-**Global maximum** = Highest value in the function. 
+**Global maximum** = Highest value within the domain of the function. 
 
 ![image](https://user-images.githubusercontent.com/112503726/209007039-6562b618-fc81-455f-8a29-a5d86704bb3d.png)
 
@@ -219,6 +219,11 @@ Answer the question:
 ![image](https://user-images.githubusercontent.com/112503726/209575237-aa072f0f-5347-45e7-8828-fa44ab5d7ec4.png)
 
 ## Conclusion
-If you've gotten all the way here, I wanna congratulate you for reading this long post all the way through. This post provided examples of different kinds of optimization problems. However, there's a lot 
+If you've gotten all the way here, I wanna congratulate you for reading this long post all the way through! This post provided examples of different kinds of optimization problems. I hope you got a better understanding of optimization using calculus; if not, here are a list of resources that you can use to get more practice!
+
 ### Resources that I've used
-Professor Leonard's videos are amazing. 
+Professor Leonard video: https://www.youtube.com/watch?v=SWZcq_biZLw&t=2317s
+Khan Academy: https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new
+
+That's it for this post! I hope you have a good day and thank you for reading!
+
