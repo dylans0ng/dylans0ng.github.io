@@ -54,6 +54,7 @@ Here's the 3 step process in action:
 #### Closed Interval Example
 Find the global min and max for the function on the closed interval:
 ![image](https://user-images.githubusercontent.com/112503726/209277409-344e4f96-7433-4d48-9eca-3e7f25aa66fe.png)
+
 ![image](https://user-images.githubusercontent.com/112503726/209277702-59420c33-cdea-4d0e-85a7-bbfc1531cccc.png)
 
 Now, let's look at some tougher problems. 
