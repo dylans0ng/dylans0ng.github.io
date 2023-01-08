@@ -41,4 +41,4 @@ That's it for this post! I hope you enjoyed it! You can see that creating charts
 
 If you're curious about learning what Excel functions are, I highly recommend that you check out my previous Excel post: https://medium.com/@dylanhgs/what-are-excel-functions-227d687251a0.
 
-My next post will be on formatting Excel tables, so stay tuned for that! Thank you reading and I hope you have a good day!
+My next post will be on formatting Excel tables, so stay tuned for that! Thank you for reading and I hope you have a good day!
