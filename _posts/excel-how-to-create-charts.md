@@ -26,10 +26,19 @@ Caption of the image: Note: this data has fake numbers that I used just to play 
 
 You can click on each of the icons to see the different kinds of charts that Excel provides.
 
-It's important to understand that **using a certain type of chart will not look good** depending on your data. For example, **pie charts do not work well with large amounts of data** because it will get very cluttered and **won't be helpful** in gaining insights. You must choose a type of visual that will display your data in a way that is **easy to understand** and is **visually appealing**. 
+It's important to understand that **using a certain type of chart will not look good** depending on your data. For example, **pie charts do not work well with large amounts of data** because it will get very cluttered and **won't be helpful** in gaining insights. You must **choose a type of visual** that will display your data in a way that is **easy to understand** and is **visually appealing**. 
 
-4) You can also change the data that you want within the chart by going to "chart design" and clicking FINISH THIS LATERRRR!
+4) You can also **change the data that you want within the chart** by going to "chart design" and clicking on "Select Data" (note: **you must have the chart selected**): 
+![image](https://user-images.githubusercontent.com/112503726/211178933-d041e209-fdc2-42e1-bd1a-b383eb5f4e2f.png)
 
+This will open a **new window** that looks like this:
+![image](https://user-images.githubusercontent.com/112503726/211178950-058388db-c0bb-4996-bf54-5bd4d1fd3ca1.png)
+
+There, you can **select a new range of data** that you want the chart to show.
 
 ## Conclusion
-That's it for this post! I hope you enjoyed it and if you're curious about learning what Excel functions are, I highly recommend that you check out my previous Excel post: https://medium.com/@dylanhgs/what-are-excel-functions-227d687251a0.
+That's it for this post! I hope you enjoyed it! You can see that creating charts on Excel is very easy to do. All you gotta do is **click on a few buttons** and you get a nice looking chart. **You just gotta know which buttons to click**. 
+
+If you're curious about learning what Excel functions are, I highly recommend that you check out my previous Excel post: https://medium.com/@dylanhgs/what-are-excel-functions-227d687251a0.
+
+My next post will be on formatting Excel tables, so stay tuned for that! Thank you reading and I hope you have a good day!
