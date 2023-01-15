@@ -43,7 +43,14 @@ Now, if I look at the preview of how the page will turn out, nothing is cut off 
 You can see that this will **print out 2 pages**: one with the data and one with the chart.
 
 ## Doing More with Page Layout
-TALK ABOUT ADDING HEADER AND FOOTER WITH THE MONTHLY BUDGET SHEET!
+There's another cool feature with **Page Layout**.
+
+You can add a **header** to your sheet by clicking in the **top middle of the page** in the **Page Layout** view. There, you can type in your header:
+![image](https://user-images.githubusercontent.com/112503726/212562441-5c4c33f3-e7fc-4910-bd80-ab7437ab9a2b.png)
+
+Adding a header to one of your pages will add the header to **all of your pages**.
+
+You can also add page numbers of your Excel sheet. To do this, click on the **bottom right corner** in the Page Layout view
 
 ## Conclusion
 FILL THIS OUT LATER!
