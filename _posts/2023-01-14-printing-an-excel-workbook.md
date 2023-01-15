@@ -50,8 +50,14 @@ You can add a **header** to your sheet by clicking in the **top middle of the pa
 
 Adding a header to one of your pages will add the header to **all of your pages**.
 
-You can also add page numbers of your Excel sheet. To do this, click on the **bottom right corner** in the Page Layout view
+You can also add page numbers of your Excel sheet. To do this, click on the **bottom right corner** in the Page Layout view. Then, click on the "**Header & Footer**" ribbon and click on "**Page Number**:
+![image](https://user-images.githubusercontent.com/112503726/212562651-66bed7dc-2cee-4a89-bf45-0d74f61ae920.png)
+
+This adds a page number to all of your pages:
+![image](https://user-images.githubusercontent.com/112503726/212562759-66d20d76-0627-4fcb-ac70-b3ddec966db9.png)
+
+So, when you print the sheet out, you'll know the order of the pages because you inserted page numbers. 
 
 ## Conclusion
-FILL THIS OUT LATER!
+I hope you found this post helpful! My next post will be on data validation in Excel, so stay tuned for that! Thank you for reading and I hope you have a good day!  
 
