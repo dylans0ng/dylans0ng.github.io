@@ -1,4 +1,6 @@
 # Excel Data Validation
+![image](https://user-images.githubusercontent.com/112503726/213894830-7e6df762-c1cf-4a20-ba40-712f2e119a4b.png)
+
 ## Introduction
 Whenever we deal with data, we need to make sure that the values in each column have **consistent formatting** because it will **make our lives much easier** when we start applying functions to the data. 
 
@@ -21,7 +23,7 @@ This will open up a **new window** that should look like this:
 ## List Data Validation
 If you want to add rules to a column that has text values, then you should probably use the **List Data Validation** feature. 
 
-First, **highlight all the cells in the column** and Go to the Data Validation window and click on the **dropdown arrow that says "Allow"**. From there, select "**List**" from the options:
+First, **highlight all the cells in the column** and go to the Data Validation window and click on the **dropdown arrow that says "Allow"**. From there, select "**List**" from the options:
 
 ![image](https://user-images.githubusercontent.com/112503726/213890632-96a52c01-e13a-458a-9a70-b2723fcc29b8.png)
 
@@ -38,3 +40,21 @@ This will ensure that all of your data in the column will **ONLY INCLUDE the lis
 
 ## Decimal Data Validation
 Data validation with decimals **works exactly the same way** with list data validation, but this time, you are **adding rules to numeric values**.
+
+As an example, here's a look at the table again:
+![image](https://user-images.githubusercontent.com/112503726/213894526-8c2718a6-2a4d-49b1-b8a2-5199c54265b1.png)
+
+Caption: Credit to Udemy's Excel Beginner to Advanced
+
+Let's say I want the "Rate" column to only be able to have **numeric values between 1.50 and 50.50**. To do this, **highlight the cells that you want to add the rule on** and open the Data Validation window. Make sure to click on **"Decimal" in the "Allow" dropdown box** (but you can do whole number if your data doesn't have any decimals):
+
+![image](https://user-images.githubusercontent.com/112503726/213894605-0609129c-2b46-4012-ab86-95c3149d7f0b.png)
+
+If you enter any value that **falls outside of the numeric range that you set up**, then you will get an error:
+![image](https://user-images.githubusercontent.com/112503726/213894732-1bb9cee3-d231-4acd-ad42-f95cd39682f6.png)
+
+Excel also **won't let you enter in any text format** values:
+![image](https://user-images.githubusercontent.com/112503726/213894752-a6b4ed6a-46e7-4af6-888b-d268df57ef5c.png)
+
+## Conclusion
+That's it for this post! I hope you learned something new that you can do in Excel. I've only scratched the surface, and I encourage you to play around with the different rules that you can do with the Data Validation feature. Anyways, thank you for reading this post and I hope you have a good day!
