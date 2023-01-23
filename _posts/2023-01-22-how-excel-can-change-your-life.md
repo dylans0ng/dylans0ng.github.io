@@ -1,4 +1,4 @@
-# Top 3 Ways Learning Excel can Change your Life
+# 3 Ways Learning Excel can Change your Life
 _Want to watch? Here's the video that goes with this post ADD THE LINK LATER_
 
 ## Introduction
