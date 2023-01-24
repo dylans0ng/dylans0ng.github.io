@@ -17,6 +17,8 @@ With its beginner-friendly interface, Excel has many built-in features that help
 By learning Excel, you can gain conclusions from data and make decisions that will benefit your business. 
 
 ## Useful skill in the job market
-Learning Excel opens the doors to many different opportunities. You don't even have to be a complete whiz in it! Just knowing the basics can get you somewhere. 
+Learning Excel opens the doors to **many different opportunities**. It is a **versatile tool** that can be applied to **many different kinds of jobs** that include but are not limited to accountants, data analysts, and data scientists.
+
+You don't even have to be a complete master in Excel! Just knowing the basics will give you an **advantage over many other candidates**. And after you learn the basics, you'll likely gain more confidence and get into "the zone" and start learning more advanced functions!  
 
 ## Lays the foundation of learning other skills
