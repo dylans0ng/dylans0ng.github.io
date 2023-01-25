@@ -22,3 +22,4 @@ Learning Excel opens the doors to **many different opportunities**. It is a **ve
 You don't even have to be a complete master in Excel! Just knowing the basics will give you an **advantage over many other candidates**. And after you learn the basics, you'll likely gain more confidence and get into "the zone" and start learning more advanced functions!  
 
 ## Lays the foundation of learning other skills
+If you're aiming for a job such as a data analyst or a data scientist, then Excel is a **great starting point** not only because it is easy to learn, but also because it teaches you the skills that **can be transferred to other more advanced tools** such as SQL, Power BI, etc.  
