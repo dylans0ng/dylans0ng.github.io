@@ -23,3 +23,5 @@ You don't even have to be a complete master in Excel! Just knowing the basics wi
 
 ## Lays the foundation of learning other skills
 If you're aiming for a job such as a data analyst or a data scientist, then Excel is a **great starting point** not only because it is easy to learn, but also because it teaches you the skills that **can be transferred to other more advanced tools** such as SQL, Power BI, etc.  
+
+In other words, if you wanted to get started somewhere but don't know where to start, **start with Excel**. 
