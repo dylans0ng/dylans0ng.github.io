@@ -17,11 +17,15 @@ With its beginner-friendly interface, Excel has many built-in features that help
 By learning Excel, you can gain conclusions from data and make decisions that will benefit your business. 
 
 ## Useful skill in the job market
+![image](https://user-images.githubusercontent.com/112503726/215378874-bc7ec205-6b71-4b28-9cc6-b3e4b6230ce6.png)
+
 Learning Excel opens the doors to **many different opportunities**. It is a **versatile tool** that can be applied to **many different kinds of jobs** that include but are not limited to accountants, data analysts, and data scientists.
 
 You don't even have to be a complete master in Excel! Just knowing the basics will give you an **advantage over many other candidates**. And after you learn the basics, you'll likely gain more confidence and get into "the zone" and start learning more advanced functions!  
 
 ## Lays the foundation of learning other skills
+![image](https://user-images.githubusercontent.com/112503726/215378812-5929de18-04b4-4bf6-bd0c-f84876ec703e.png)
+
 If you're aiming for a job such as a data analyst or a data scientist, then Excel is a **great starting point** not only because it is easy to learn, but also because it teaches you the skills that **can be transferred to other more advanced tools** such as SQL, Power BI, etc.  
 
 In other words, if you wanted to get started somewhere but don't know where to start, **start with Excel**. 
