@@ -1,5 +1,5 @@
 # 3 Ways Learning Excel can Change your Life
-_Want to watch? Here's the video that goes with this post ADD THE LINK LATER_
+_Want to watch the video that goes along with the post? Check it out here: https://youtu.be/kyF3feEtbPk_
 
 ## Introduction
 Data help businesses make decisions. 
@@ -25,3 +25,6 @@ You don't even have to be a complete master in Excel! Just knowing the basics wi
 If you're aiming for a job such as a data analyst or a data scientist, then Excel is a **great starting point** not only because it is easy to learn, but also because it teaches you the skills that **can be transferred to other more advanced tools** such as SQL, Power BI, etc.  
 
 In other words, if you wanted to get started somewhere but don't know where to start, **start with Excel**. 
+
+## Conclusion
+That's it for this post! Thank you so much for reading and I hope you have a good day!
