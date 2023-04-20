@@ -12,4 +12,9 @@ There's a button that looks like "fx" and it's to the **left of the formula bar*
 ## When to Use it
 You can use it whenever you are building a function. I like to use it all the time, but it's especially necessary for me when I forgot what the arguments were.
 
-## How to use Make sure to put the = sign and type in the name of the function with the open parentheses  
+## How to use It 
+Make sure to put the **= sign** and type in the name of the function with the open parentheses and press the button: 
+![image](https://user-images.githubusercontent.com/112503726/233481537-f8260b1f-ccc4-43ed-baea-2bfb9a70e565.png)
+
+This will open up a new pop-window, where you can 
+
