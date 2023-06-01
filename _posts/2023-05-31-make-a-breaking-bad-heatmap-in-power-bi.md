@@ -4,7 +4,11 @@
 make a table of contents that shows each section with the end result 
 
 ## Introduction
-In this post, I'll quickly show you how to easily make a heatmap that shows the IMDB ratings on each episode in the famous TV Show "Breaking Bad". I'll be using Power BI to make this visual, but at the end of this post, I'll show you how you can build the same thing in Excel. 
+Breaking Bad is one of the **top rated TV shows**, so I decided to make **a heatmap** that shows the IMDB ratings for each episode in the 5 seasons. 
+
+In this post, I'll quickly show you how to **easily make this heatmap**, and you'll learn how to **create a matrix** and **apply color formatting** to the values inside the matrix. 
+
+I'll be using Power BI to make this visual, but at the end of this post, I'll show you how you can build the same thing in Excel. 
 
 ## Where I got the Data
 I did not make this dataset myself. Thank you so much to whoever compiled all the information on each Breaking Bad Episode: https://www.kaggle.com/datasets/varpit94/breaking-bad-tv-show-all-seasons-episodes-data
@@ -28,5 +32,27 @@ Now, hit **"Close and Apply"** on the top left corner:
 We're ready to move on to the next step...
 
 ## Making the Heatmap
+Before we do anything, make sure that you're in the "**Report**" tab that looks like this:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/9705a6b8-1417-42fa-bf88-c0e85f24f4d2)
 
+### Creating the Basic Matrix 
+First, we need to make **a matrix** that will display all the IMDB ratings:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/e936df43-703d-48d0-8e1a-177ebaede84a)
 
+This will open a **blank matrix**:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/ab3dfe42-da29-4a70-b2e6-24b5edf49650)
+
+Now, drag "Episode" from the data into the **rows of the matrix**, drag "Season" into the **columns of the matrix**, and drag "Rating_IMDB" into **the values of the matrix**:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/15fb52a2-f710-4b3e-badc-5a91e37b36c5)
+
+This is what the result looks like so far:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/4f2e2909-d273-4081-b742-b1fd09ef1561)
+
+### Styling the Matrix 
+This is optional, but the numbers in the matrix look pretty ugly right now. You can make them **look cleaner** by changing the style to "Minimal": 
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/acd78bb0-36c1-4f4d-abb4-394260400b31)
+
+In my opinion, the matrix looks a lot better now! 
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/b7301672-6181-4153-a3cb-5542c7e9b1bf)
+
+TYPE THIS IN LATER: To add color scale, click on "Visual" for the matrix and then click on "Cell elements" and click on "background color"!!!!
