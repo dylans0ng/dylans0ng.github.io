@@ -55,4 +55,19 @@ This is optional, but the numbers in the matrix look pretty ugly right now. You 
 In my opinion, the matrix looks a lot better now! 
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/b7301672-6181-4153-a3cb-5542c7e9b1bf)
 
-TYPE THIS IN LATER: To add color scale, click on "Visual" for the matrix and then click on "Cell elements" and click on "background color"!!!!
+The "Total" columns look pretty annoying, let's remove that by toggling "**Column subtotals**" and "**Row subtotals**" off:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/0612825f-6c42-4193-8c67-5791433d8d0e)
+
+Now, the matrix looks a lot better!
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/ffd26914-6afe-46cb-96d6-5a48cfe14d54)
+
+### Adding Color 
+This isn't a heatmap **until we add color** to it. To add a **color gradient** to this matrix, go to "**Cell elements**", and then toggle the "**Background color**" on, like this:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/a897039e-c566-4f2a-a47a-441f5f247d66)
+
+Here's what it looks like now:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/4a0b2fd6-09dd-428b-8ef9-e4704e3e06b5)
+
+But the **Breaking Bad color theme** isn't really about blue. It's more of a **combination of yellow and green**, so that's what my color gradient is going to be.
+
+TYPE THIS IN LATER: Click on "Fx" and sele the color of your choice!
