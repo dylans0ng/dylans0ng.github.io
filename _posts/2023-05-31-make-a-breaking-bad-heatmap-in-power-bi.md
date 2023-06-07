@@ -1,20 +1,18 @@
 # Make a Breaking Bad Heatmap in Power BI
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/734fa027-7938-4278-aaf0-bb586446813a)
 
-make a table of contents that shows each section with the end result 
-
 ## Introduction
 Breaking Bad is one of the **top rated TV shows**, so I decided to make **a heatmap** that shows the IMDB ratings for each episode in the 5 seasons. 
 
-In this post, I'll quickly show you how to **easily make this heatmap**, and you'll learn how to **create a matrix** and **apply color formatting** to the values inside the matrix. 
+In this post, I'll quickly show you how to **make this heatmap**, and you'll learn how to **create a matrix** and **apply color formatting** to the values inside the matrix. 
 
-I'll be using Power BI to make this visual, but at the end of this post, I'll show you how you can build the same thing in Excel. 
+I'll be using Power BI to make this visual, but at the end of this post, I'll show you how you can **build the same thing in Excel**. 
 
 ## Where I got the Data
-I did not make this dataset myself. Thank you so much to whoever compiled all the information on each Breaking Bad Episode: https://www.kaggle.com/datasets/varpit94/breaking-bad-tv-show-all-seasons-episodes-data
+I did not make this dataset myself. Thank you so much to whoever compiled all the information on each Breaking Bad episode: https://www.kaggle.com/datasets/varpit94/breaking-bad-tv-show-all-seasons-episodes-data
 
 ## Preparing the Data
-Before I start making the visual, I need to clean up the data by getting rid of any unncessary columns. Now, when import the data from your local computer onto Power BI, make sure to hit "**Transform Data**".
+Before I start making the visual, I need to clean up the data by getting rid of any unncessary columns. Now, when you import the data from your local computer onto Power BI, make sure to hit "**Transform Data**".
 
 This will open up the **Power Query Editor**, which should look like this:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/de471d3d-6911-4cb1-8cb8-77cbe9dc6f22)
@@ -52,22 +50,39 @@ This is what the result looks like so far:
 This is optional, but the numbers in the matrix look pretty ugly right now. You can make them **look cleaner** by changing the style to "Minimal": 
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/acd78bb0-36c1-4f4d-abb4-394260400b31)
 
-In my opinion, the matrix looks a lot better now! 
+Here's what you should get: 
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/b7301672-6181-4153-a3cb-5542c7e9b1bf)
 
-The "Total" columns look pretty annoying, let's remove that by toggling "**Column subtotals**" and "**Row subtotals**" off:
+The "Total" columns look pretty annoying, so let's remove that by toggling "**Column subtotals**" and "**Row subtotals**" off:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/0612825f-6c42-4193-8c67-5791433d8d0e)
 
 Now, the matrix looks a lot better!
+
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/ffd26914-6afe-46cb-96d6-5a48cfe14d54)
 
 ### Adding Color 
 This isn't a heatmap **until we add color** to it. To add a **color gradient** to this matrix, go to "**Cell elements**", and then toggle the "**Background color**" on, like this:
+
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/a897039e-c566-4f2a-a47a-441f5f247d66)
 
 Here's what it looks like now:
+
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/4a0b2fd6-09dd-428b-8ef9-e4704e3e06b5)
 
-But the **Breaking Bad color theme** isn't really about blue. It's more of a **combination of yellow and green**, so that's what my color gradient is going to be.
+But the **Breaking Bad color theme** isn't really blue. It's more of a **combination of yellow and green**, so that's what my color gradient is going to be.
 
-TYPE THIS IN LATER: Click on "Fx" and sele the color of your choice!
+To edit the color scheme, click on the button that says "fx":
+
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/dbfa9f19-d66e-48d9-953b-4cab7d89798e)
+
+Once you click that, you can fiddle around with the different colors. Here's the colors that I chose (you can use whatever colors you want!):
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/5a01f4fc-8cb5-48a4-bcc5-aa81737e910f)
+
+## The Final Result
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/39556edd-f49f-44ad-925a-f7ae7342989f)
+
+... and that's what my final heatmap looks like. I hope you followed along with this blog post and drop down your heatmaps in the comments! I look forward to seeing them 😄!
+
+## Making this Breaking Bad Heatmap inside of Excel
+You can also make a **Breaking Bad Heatmap in Excel** (it's slightly different than making it in Power BI)! If you want to learn how to do that, then check out this video: https://youtu.be/a-41Bxh-u3k
+
