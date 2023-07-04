@@ -25,7 +25,13 @@ Here's a quick example:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/f97324e1-9a0d-4b9d-9f22-b28be34abfe2)
 (I got this from https://www.google.com/search?rlz=1C1SQJL_enUS830US830&sxsrf=AB5stBgMV3dFoBrcC_C7C67-kxToGMUCRw:1688432056979&q=golden+set+analytics&tbm=isch&sa=X&ved=2ahUKEwje7O7H6_P_AhXDMjQIHZADDn8Q0pQJegQIDRAB&biw=1536&bih=846&dpr=1.25#imgrc=c1wNSddUuoMSwM)
 
-And GSA's services have helped players like Federer and Djokovic reach the top 10 in the rankings. But they didn't analyze the complicated data visualizations themselves.
+And GSA's services have helped players like Djokovic reach the top 10 in the rankings. But they didn't analyze the complicated data visualizations themselves.
 
 ## Strategy Coaches 
-DO THIS LATER
+A strategy coach named Craig O'Shannessy helped Djokovic get to number 1 with the use of data. On top of analyzing data visualizations, O'Shannessy analyzed videos of Djokovic's previous in-game points. Furthermore, he observed the types of shots that had a higher winning percentage for Djokovic and his opponents to find the best pattern of play. 
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/d91e9b42-6f4a-4631-99b8-b1ec25338ada)
+
+## Conclusion
+Other than training for hours on the court, tennis pros are analyzing their own data from past tennis matches to utilize their strengths and drill the ball towards their opponents' weaknesses. 
+
+This'll maximize their success the next time they step on the court to face their rival.  
