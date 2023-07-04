@@ -18,6 +18,14 @@ IBM SlamTracker collects millions of data points to analyze all the matchups tha
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/995ed709-5de3-40d9-a78f-98612c52ad93)
 (I got this image from https://www.usopen.org/en_US/scores/stats/1701.html?promo=matchchanger)
 
-There's also analytical firms like Golden Set Analytics blahblah
+There's also analytical companies like Golden Set Analytics (GSA) that provide data over a large number of matches for players of your choosing. Because its data is very reliable, Golden Set Analytics's services are pricey, so it's mainly used by professionals rather than recreational players. 
 
-## Who's Using these Tools?
+Here's a quick example:
+
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/f97324e1-9a0d-4b9d-9f22-b28be34abfe2)
+(I got this from https://www.google.com/search?rlz=1C1SQJL_enUS830US830&sxsrf=AB5stBgMV3dFoBrcC_C7C67-kxToGMUCRw:1688432056979&q=golden+set+analytics&tbm=isch&sa=X&ved=2ahUKEwje7O7H6_P_AhXDMjQIHZADDn8Q0pQJegQIDRAB&biw=1536&bih=846&dpr=1.25#imgrc=c1wNSddUuoMSwM)
+
+And GSA's services have helped players like Federer and Djokovic reach the top 10 in the rankings. But they didn't analyze the complicated data visualizations themselves.
+
+## Strategy Coaches 
+DO THIS LATER
