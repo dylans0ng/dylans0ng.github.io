@@ -1,4 +1,7 @@
 # My Favorite Excel Feature: VBA! 
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/7d1114c2-8d53-4a5b-88e7-1127e9f4a416)
+Image by https://unsplash.com/@hishahadat on https://unsplash.com/
+
 ## Introduction
 I love Excel because of its simplicity and its ability to **efficiently organize data**. In this post, I'm going to share my **FAVORITE feature in Excel** that every data analyst should use.
 
@@ -18,10 +21,10 @@ This is called the **VBA Editor**, or VBA Interface, and you'll be able to enter
 ## What are macros?
 Inside a macro, you can enter **sequences of VBA code statements** where you put in your VBA code. 
 
-To create a macro in the VBA interface, click on the "Insert" ribbon:
+To create a macro in the VBA interface, click on the "**Insert**" ribbon:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/77f8f577-c2a9-4d2b-b2d5-0d602c2c2179)
 
-Then, click on "Module". Once you do that, you should see white space that looks like this:
+Then, click on "**Module**". Once you do that, you should see white space that looks like this:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/efa121ac-e599-4f45-8335-e304190960b7)
 
 ## What are procedures?
@@ -38,8 +41,17 @@ If I want to call this procedure called "**InsertHeaders**", then I'll go back t
 From there, click on "**Macros**":
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/dcaa505a-8258-46f8-ab59-fa665b37b97f)
 
-Then, you can select the "InsertHeaders" procedure and click "**Run**" (ignore the other procedures I've made):
+Then, you can select the "**InsertHeaders**" procedure and click "**Run**" (ignore the other procedures I've made):
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/f6f98dd2-2565-4e5a-9a12-a56fa71468e2)
 
 ## More Excel VBA Concepts 
-Because Excel VBA is a broad language, there's so many more concepts to learn about! You should check out this website which explains each of the different VBA components. 
+Because Excel VBA is a **broad language**, there's so many more concepts to learn about! You should check out [this](https://www.excel-easy.com/vba.html) website which explains each of the **different VBA components**. 
+
+I've also made **YouTube playlists** that you might find helpful!
+https://www.youtube.com/playlist?list=PL8QLO4tKii7fFGGm7H7EHdKYRWHAEDkf_
+Make the caption be "Excel VBA in 30 Seconds"
+
+https://www.youtube.com/playlist?list=PL8QLO4tKii7fhXsw1mrdpoI08oO8eUoKJ
+Make the caption be "Excel VBA Long-Form Videos" 
+
+If you made it this far, thank you so much for your time and hope you have a great day 😀!
