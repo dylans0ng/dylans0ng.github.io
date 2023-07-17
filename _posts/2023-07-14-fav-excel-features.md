@@ -30,7 +30,7 @@ Then, click on "**Module**". Once you do that, you should see white space that l
 ## What are procedures?
 If you have previous coding knowledge, think of **procedures** as **functions**. A procedure contains some VBA code that you can **call anytime**. 
 
-For example, here's a procedure that'll automatically insert headers:
+For example, here's a procedure that'll automatically **insert headers**:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/f4c7b658-9655-4b70-8177-4a6dbf1af09b)
 
 It's ok if the code doesn't make sense! Basically, I **inserted column names** and made sure that they were on the **first row of the data**.
