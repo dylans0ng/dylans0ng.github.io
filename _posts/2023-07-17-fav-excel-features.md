@@ -19,7 +19,7 @@ If you open up Excel and do **Alt + F11**, a new pop-up window will appear:
 This is called the **VBA Editor**, or VBA Interface, and you'll be able to enter in code in the macros that you create. 
 
 ## What are macros?
-Inside a macro, you can enter **sequences of VBA code statements** where you put in your VBA code. 
+Inside a macro, you can enter **sequences of VBA code statements**. 
 
 To create a macro in the VBA interface, click on the "**Insert**" ribbon:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/77f8f577-c2a9-4d2b-b2d5-0d602c2c2179)
