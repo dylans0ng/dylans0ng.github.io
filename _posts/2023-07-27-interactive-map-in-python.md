@@ -28,4 +28,26 @@ Doing this will make "file" a **GeoDataFrame**, which means we're closer to gett
 I just want to look at the **first 5 rows** of this GeoDataFrame. All I have to do is call the **.head** method:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/9d9d52ae-92cf-440d-b1fb-162bf142cba9)
 
-If you scroll all the way to FINISH THIS LATER
+If you keep scrolling through the dataset, you'll notice that the last column says "**geometry**":
+
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/424cf3b9-fda1-4503-9391-a551d750f850)
+
+This column has a bunch of **Polygon objects** that contain coordinate points. These Polygons allow Python to create a map from the data, and every GeoDataFrame **must have this column**.
+
+## Creating the Final Map
+We only have two lines of code left! The nice thing is that the GeoPandas library provides us with **.explore**. In this simple method, we just have to pass in the column name(s).
+
+I want to see how the property crime rates differ across the different Chicago areas, so I'm gonna say this:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/0ce07b08-948e-4456-b56f-3e2bffd3abd7)
+
+In this case, "**Property_C**" is the column name in the dataset. But you can put in whatever column you want since you're the analyst!
+
+Here's what the final result looks like:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/d474b244-0009-45d7-91ef-694458feae34)
+
+The cool thing is that you can **move the map around** and **zoom in/out**. I encourage you to try it yourself! 
+
+## Video Explanation
+Thank you so much for reading this article! If you want to see me walk through all the steps that I just talked about, then feel free to check out this video: PLACEHOLDER.
+
+It'll only take 3 minutes of your time 😀
