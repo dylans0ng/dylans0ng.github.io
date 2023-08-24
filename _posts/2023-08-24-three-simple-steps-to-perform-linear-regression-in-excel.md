@@ -10,7 +10,7 @@ The Kaggle dataset I'll use in this post shows all the **sale prices for the hou
 (Credit to Thom Milkovic on Unsplash)
 
 ## Step 1: Come Up with Your Statistical Question
-Before we create the model, we need to know what variables we're interested in. For this video, my question is going to be "**What is the relationship between the square feet in the living room and the price?**"
+Before we create the model, we need to know what variables we're interested in. For this post, my question is going to be "**What is the relationship between the square feet in the living room and the price?**"
 
 So, my variables are going to be the **square feet** and the **price**. You can choose your own variables, but you need to make sure that they're **continuous variables**, or else you're gonna run into a problem.
 
