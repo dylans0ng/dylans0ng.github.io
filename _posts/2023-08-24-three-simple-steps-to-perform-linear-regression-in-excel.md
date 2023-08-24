@@ -26,7 +26,7 @@ Then, hold the **Ctrl** key and click on the second cell in the price column and
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/d617b9ed-a467-498f-9e6b-8d3a7cfeea8c)
 
 ## Step 3: Create the Scatterplot
-Now, go to "Insert" and click on this button over here:
+Now, go to "**Insert**" and click on this button over here:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/ed7e2f26-d452-486d-83e2-04828538462b)
 
 But, there's actually a problem:
@@ -60,4 +60,4 @@ If you want to see me create a **regression line** over this scatterplot and **a
 
 (Insert the link) 
 
-So, I hope to see you over there! 
+I hope to see you over there! 
