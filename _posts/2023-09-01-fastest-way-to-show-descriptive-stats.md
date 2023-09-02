@@ -1,7 +1,7 @@
 # Fastest Way to Show Descriptive Statistics in Excel
-![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/ea88355b-3e58-4128-b98a-21071cd9ab0e)
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/3353941b-7ed8-45d8-b253-cfd22d602eef)
 
-(Caption: We're gonna be analyzing this delicious burger!)
+(Caption: We're gonna be analyzing this a McDonalds meal! Credit to Brett Jordan on Unsplash)
 
 ## Introduction
 In this post, I'll show you a **quick way** to show a list of **descriptive statistics** in Excel! And I'll be analyzing a **dataset on Big Mac prices** and use a simple tool in Excel to get the mean, median, and more. Here's the link to the dataset: https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice
