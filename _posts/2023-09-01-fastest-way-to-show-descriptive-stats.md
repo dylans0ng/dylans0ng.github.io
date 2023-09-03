@@ -4,7 +4,7 @@
 (Caption: We're gonna be analyzing this a McDonalds meal! Credit to Brett Jordan on Unsplash)
 
 ## Introduction
-In this post, I'll show you a **quick way** to show a list of **descriptive statistics** in Excel! And I'll be analyzing a **dataset on Big Mac prices** and use a **simple tool** in Excel to get the mean, median, and more. Here's the link to the dataset: https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice
+In this post, I'll show you a **quick way** to show a list of **descriptive statistics** in Excel! And I'll be analyzing a **dataset on Big Mac prices** and use a **simple tool** to get the mean, median, and more. Here's the link to the dataset: https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice
 
 So, make sure to **read until the end** if you're interested to analyze this data in only a **couple of mouse clicks**! 
 
@@ -64,3 +64,6 @@ And that's really all it is! Once you do that, you'll see a new worksheet with t
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/5e8cd3dc-eb3b-407f-8372-2fa3faac59d8)
 
 If you want to see me analyze this output, then make sure to check out my full video over here:
+https://youtu.be/508jcQMqYvI
+
+I hope to see you there, and thank you for reading all the way here! 
