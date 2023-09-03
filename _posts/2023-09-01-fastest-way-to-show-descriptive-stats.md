@@ -11,7 +11,7 @@ So, make sure to **read until the end** if you're interested to analyze this dat
 ## The "Data Analysis" Feature
 The "**Data Analysis**" feature is an Excel **add-in** that is very useful when it comes to **statistical summaries**. For this post, we'll use it to give us descriptive statistics of the Big Mac prices. 
 
-However, if you're on the default Excel settings, then **you won't see the tool**. Here's how to enable it:
+However, if you're on the default Excel settings, then **you won't see the tool**. Here's how to enable it...
 
 ## Enabling "Data Analysis"
 First, click on the "File" ribbon and then on the **bottom left hand corner**, click on "**Options**":
