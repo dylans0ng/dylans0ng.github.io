@@ -63,7 +63,7 @@ So, I'll just call the new worksheet "**Big Mac Prices Stats**" and click on "OK
 And that's really all it is! Once you do that, you'll see a new worksheet with the descriptive statistics on the **Big Mac prices column**:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/5e8cd3dc-eb3b-407f-8372-2fa3faac59d8)
 
-If you want to see me analyze this output, then make sure to check out my full video over here:
+If you want to see me **analyze this output**, then make sure to check out my **full video** over here:
 https://youtu.be/508jcQMqYvI
 
 I hope to see you there, and thank you for reading all the way here! 
