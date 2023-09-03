@@ -9,7 +9,7 @@ In this post, I'll show you a **quick way** to show a list of **descriptive stat
 So, make sure to **read until the end** if you're interested to analyze this data in only a **couple of mouse clicks**! 
 
 ## The "Data Analysis" Feature
-The "**Data Analysis**" feature is an Excel **add-in** that is very useful when it comes to **statistical summaries**. For this post, we'll use it to give us a descriptive statistics of the Big Mac prices. 
+The "**Data Analysis**" feature is an Excel **add-in** that is very useful when it comes to **statistical summaries**. For this post, we'll use it to give us descriptive statistics of the Big Mac prices. 
 
 However, if you're on the default Excel settings, then **you won't see the tool**. Here's how to enable it:
 
