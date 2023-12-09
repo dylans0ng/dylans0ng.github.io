@@ -7,7 +7,7 @@ In this blog post, I'll show you how to create a **timeline slicer** in Excel. I
 I'll explain more on this later, so keep reading!
 
 ## What is a timeline slicer?
-A timeline slicer is a **filtering tool** lets you see values based on the **certain dates or times** that you filter on. You'll see how it works in this example I'm about to show you...
+A timeline slicer is a **filtering tool** that lets you see values based on the **certain dates or times** that you filter on. You'll see how it works in this example I'm about to show you...
 
 ## Introducing the Dataset
 To use the timeline slicer, I'm going to use a Kaggle dataset on **Netflix movies and TV shows** that you can find [here](https://www.kaggle.com/datasets/maso0dahmed/netflix-movies-and-shows).
