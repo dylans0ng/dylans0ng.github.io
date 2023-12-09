@@ -31,7 +31,7 @@ Doing that's gonna create a new worksheet where you can **build the pivot table*
 ## Building the Pivot Table
 Inside the new worksheet, I'm going to drag the "age_certification" column into the **"Rows"** box and the "runtime" column into the **"Values"** box:
 
-![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/d2c61446-982b-4113-8715-788f6b700ac7)
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/5df5e2cb-0163-4d51-8df4-d6bb54320959)
 
 But I don't want to get the SUM of the runtime values. I want to get the **AVERAGE**, so I'm going to click on the dropdown arrow next to "Runtime" and click on **"Value Field Settings"**. From there, I'll click on **"Average"**:
 
