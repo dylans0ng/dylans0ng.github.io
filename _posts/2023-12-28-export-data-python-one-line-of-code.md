@@ -36,7 +36,7 @@ In this cell, I used the **to_csv()** function from Pandas, which would automati
 
 So, after I ran that, I got that dataframe saved into my **local folder**, the same one as the one my Python program was located in.
 
-## Outro
+## Conclusion
 Alright, that's it for this blog! Hopefully you learned something new and **if you learn better by watching a video**, then check out this [video](https://youtu.be/bybxYHRRYKM) that I made. 
 
 I hope to see you over there, and thanks for reading!
