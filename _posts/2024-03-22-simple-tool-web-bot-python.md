@@ -18,6 +18,9 @@ I'm going to create a variable called **"driver"**:
 This will install the **ChromeDriverManager**, which will allow the Python program to **open a Google Chrome browser**. Now, we have to tell Python what to do with Chrome.
 
 In this example, I'm going to try to let Python open up the main **Wikipedia** page on Google Chrome. So, I need to **copy the URL** of Wikipedia and paste it inside the **"get"** method:
+
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/371f7e41-ef73-4318-9edd-629685a42866)
+
 PASTE IN THE PICTURE LATER
 
 
