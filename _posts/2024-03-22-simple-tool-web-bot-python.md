@@ -25,7 +25,7 @@ If you run the program, then you should get something that looks like this:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/0a237a95-5a14-4165-9ebc-7789b10cbdce)
 
 ## Short Video
-Alright, that's all I got for this one! If there's anything confusing about this blog post, then make sure to check out this [video] (https://youtube.com/shorts/QqoCmEZ1EH0) because it may be easier to follow along with a video rather than an article. Hope to see you there, and thanks for reading!
+Alright, that's all I got for this one! If there's **anything confusing** about this blog post, then make sure to check out this [video](https://youtube.com/shorts/QqoCmEZ1EH0) because it may be easier to **follow along with a video** rather than with an article. Hope to see you there, and thanks for reading!
 
 
 
