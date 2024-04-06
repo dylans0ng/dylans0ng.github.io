@@ -11,7 +11,7 @@ I'm also going to import another library called **"webdriver_manager"**:
 
 You'll see why I import this library in the next part.
 
-## Opening Google Chrome
+## Opening Wikipedia on Google Chrome
 I'm going to create a variable called **"driver"**:
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/59b2c539-959f-44e7-874e-4933da725eab)
 
@@ -21,8 +21,11 @@ In this example, I'm going to try to let Python open up the main **Wikipedia** p
 
 ![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/371f7e41-ef73-4318-9edd-629685a42866)
 
-PASTE IN THE PICTURE LATER
+If you run the program, then you should get something that looks like this:
+![image](https://github.com/dylans0ng/dylans0ng.github.io/assets/112503726/0a237a95-5a14-4165-9ebc-7789b10cbdce)
 
+## Short Video
+Alright, that's pretty much it! If there's anything confusing about this blog post, then make sure to check out this video: 
 
 
 
